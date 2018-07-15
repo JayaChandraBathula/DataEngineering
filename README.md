@@ -1,3 +1,5 @@
+# Description of Summary and Run Instructions of the Project
+
 The program is written in Java programming Language.
 Each Line of the input file is read using FileReader function in Java.
 The first name and last name are combined during the read time.
@@ -8,6 +10,7 @@ All the prescriber names are added to an array list and is checked if the list c
 If the array list doesn’t contain any duplicate values, then the count is incremented by one.
 Finally, the obtained output is written to the text file using PrintWriter function.
 
+Object oriented principles like encapsulation is follwed for the security of the data. 
 I have tested the code with several test input files and it is working fine.
 I am placing a sample test file in the input folder which is being tested. The generated output file is in the output folder.
 
