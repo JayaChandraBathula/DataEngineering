@@ -27,8 +27,8 @@ public class PharmacyValidation {
 
 		} catch (FileNotFoundException e) {
 			System.out.println(
-					"Unable to find file '" + 
-							outputFile + "'"); 
+					"Unable to find file '" +
+							outputFile + "'");
 			e.printStackTrace();
 		}
 	}
@@ -88,6 +88,7 @@ public class PharmacyValidation {
 
 	public static void main(String[] args) {
 
+		System.out.println("Commit check message");
 		//String path="C:\\Users\\c0806\\Desktop\\Data Engineering project Java and Python\\Pharmacy Counting Java\\Data Engineering project_from insight\\input\\itcont.txt"; // Location of input file
 		String path="./input/itcont.txt"; //./input/itcont.txt
 		String line=null;
@@ -114,7 +115,7 @@ public class PharmacyValidation {
 				}
 				catch (Exception e) {
 					System.out.println(
-							"Exception Occured"); 
+							"Exception Occured");
 					continue;
 
 				}
@@ -124,16 +125,16 @@ public class PharmacyValidation {
 			arrayValidation(array);
 			bufferedReader.close();
 
-		} 
+		}
 		catch (FileNotFoundException e) {
 			System.out.println(
-					"Unable to open file '" + 
-							path + "'"); 
+					"Unable to open file '" +
+							path + "'");
 		}
 
 		catch (IOException e) {
 			System.out.println(
-					"Error reading file '" 
+					"Error reading file '"
 							+ path + "'");
 		}
 	}
